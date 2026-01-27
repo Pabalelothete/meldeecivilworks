@@ -652,7 +652,7 @@ const preview = document.getElementById('galleryPreview');
 const more = document.getElementById('galleryMore');
 
 // First 8 images (preview)
-for (let i = 1; i <= 8; i++) {
+for (let i = 1; i <= 5; i++) {
   const img = document.createElement('img');
   img.src = `images/project${i}.jpg`;
   img.alt = `Project ${i}`;
@@ -662,7 +662,7 @@ for (let i = 1; i <= 8; i++) {
 }
 
 // Remaining images (hidden until See More)
-for (let i = 9; i <= 44; i++) {
+for (let i = 6; i <= 44; i++) {
   const img = document.createElement('img');
   img.src = `images/project${i}.jpg`;
   img.alt = `Project ${i}`;
@@ -743,3 +743,4 @@ info.style.display=info.style.display==='block'?'none':'block';
 </body>
 
 </html>
+
